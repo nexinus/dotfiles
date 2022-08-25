@@ -48,4 +48,9 @@
   mergeoptions = --no-edit
 [user]
 	email = zulkarnain.md.ismail@gmail.com
-	name = Zulkarnain Mohamed
+	name = Zulkarnain Mohd
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
