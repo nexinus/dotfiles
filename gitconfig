@@ -47,8 +47,8 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = zulkarnain.md.ismail@gmail.com
-	name = Zulkarnain Mohd
+	email = 62671715+nexinus@users.noreply.github.com
+	name = Zulkarnain Mohamed
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
